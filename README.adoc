@@ -23,7 +23,7 @@ At the end of the commands you have every metadata you need to start work with.
 To start a simple image build:
 
 [source,console]
-$: export MACHINE=wandboard-quard
+$: export MACHINE=wandboard-quad
 $: . ./setup-environment build
 $: cp ../local.conf conf/local.conf
 $: cp ../bblayers.conf conf/bblayers.conf
