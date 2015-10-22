@@ -16,9 +16,11 @@
 
   <project remote="qt5" revision="dizzy" name="meta-qt5" path="sources/meta-qt5"/>
 
-  <project remote="freescale" revision="dizzy" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="github_hs" revision="dizzy" name="fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
+	<copyfile dest="local.conf" src="conf/local.conf"/>
+	<copyfile dest="bblayers.conf" src="conf/bblayers.conf"/>	
   </project>
 
   <project remote="github_hs" revision="master" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
