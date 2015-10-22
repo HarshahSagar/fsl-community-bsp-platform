@@ -23,6 +23,6 @@
 	<copyfile dest="bblayers.conf" src="conf/bblayers.conf"/>	
   </project>
 
-  <project remote="github_hs" revision="master" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="github_hs" revision="dizzy" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
 
 </manifest>
