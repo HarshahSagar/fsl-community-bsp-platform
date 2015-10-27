@@ -28,7 +28,17 @@ $: . ./setup-environment build
 $: cp ../local.conf conf/local.conf
 $: cp ../bblayers.conf conf/bblayers.conf
 $: bitbake core-image-minimal
+$: bitbake meta-toolchain-qt5
 
+Building Yocto help::
+    http://wiki.wandboard.org/Getting_started_with_Yocto_on_Wandboard
+    
+Building Qt help::
+    http://wiki.wandboard.org/index.php/Building_Qt5_using_yocto_on_Wandboard
+    
+Setting up Qt Creator for development help::
+    http://wiki.wandboard.org/index.php/Setup_QT_creator_for_developing_QT_apps_on_wandboard    
+    
 You can use any directory to host your build.
 
 The source code is checked out at `fsl-community-bsp/sources`.
