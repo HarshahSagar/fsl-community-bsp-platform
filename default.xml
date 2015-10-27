@@ -8,7 +8,7 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/meta-qt5" name="qt5"/>
   <remote fetch="https://github.com/HarshahSagar" name="github_hs"/>
-  <remote fetch="https://github.com/imyller/meta-nodejs" name="nodejs"/>
+  <remote fetch="https://github.com/imyller" name="nodejs"/>
 
   <project remote="yocto" revision="dizzy" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
