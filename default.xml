@@ -14,7 +14,6 @@
   <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
   
   <project remote="oe" revision="dizzy" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="oe" revision="dizzy" name="openembedded-core" path="sources/openembedded-core"/>
 
   <project remote="qt5" revision="dizzy" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="nodejs" revision="master" name="meta-nodejs" path="sources/meta-nodejs"/>
