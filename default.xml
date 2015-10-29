@@ -24,6 +24,8 @@
 	<copyfile dest="local.conf" src="conf/local.conf"/>
 	<copyfile dest="bblayers.conf" src="conf/bblayers.conf"/>	
   </project>
+  
+  <project remote="github_hs" revision="master" name="meta-custom" path="sources/meta-custom"/>
 
   <project remote="freescale" revision="dizzy" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="dizzy" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
