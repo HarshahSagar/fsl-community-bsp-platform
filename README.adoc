@@ -27,7 +27,7 @@ $: export MACHINE=wandboard-quad
 $: . ./setup-environment build
 $: cp ../local.conf conf/local.conf
 $: cp ../bblayers.conf conf/bblayers.conf
-$: bitbake core-image-minimal
+$: bitbake core-image-full-cmdline
 $: bitbake meta-toolchain-qt5
 $: sh tmp/deploy/sdk/poky-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-1.7.3.sh
 
